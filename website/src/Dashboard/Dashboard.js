@@ -1,9 +1,9 @@
 import React from 'react'
-import DemoMultiLineChart from './DemoMultiLineChart'
-import Tasks from './Tasks'
-import DemoBarChart from './DemoBarChart'
-import DemoBarChart2 from './DemoBarChart2'
-import VerctormapDE from './VectormapDE'
+import DemoMultiLineChart from './DingImDashboard/DemoMultiLineChart'
+import Tasks from './DingImDashboard/Tasks'
+import DemoBarChart from './DingImDashboard/DemoBarChart'
+import DemoBarChart2 from './DingImDashboard/DemoBarChart2'
+import VerctormapDE from './DingImDashboard/VectormapDE'
 
 
 const Dashboard = () => {

@@ -4,13 +4,12 @@ import dynamic from 'next/dynamic';
 import { deMill } from "@react-jvectormap/germany";
 
 
-import Flag_DE_NI from "./05-Niedersachsen.png"
-import Flag_DE_TH from "./07-Thüringen.png"
-import Flag_DE_HH from "./09-Hamburg.png"
-import Flag_DE_NW from "./11-Nordrhein-Westfalen.png"
-import Flag_DE_HB from "./13-Bremen.png"
-
-import Flag_DE_HE from "./16-Hessen.png"
+import Flag_DE_NI from "../..//Bilder/05-Niedersachsen.png"
+import Flag_DE_TH from "../..//Bilder/07-Thüringen.png"
+import Flag_DE_HH from "../..//Bilder/09-Hamburg.png"
+import Flag_DE_NW from "../..//Bilder/11-Nordrhein-Westfalen.png"
+import Flag_DE_HB from "../..//Bilder/13-Bremen.png"
+import Flag_DE_HE from "../..//Bilder/16-Hessen.png"
 
 const VectorMap = dynamic(
     // @ts-ignore
