@@ -1,6 +1,6 @@
 import React from 'react'
 
-const InfoDashboard = () => {
+const InfoCustomerTable = () => {
     return (
         <div>
             <div className=''>
@@ -11,7 +11,7 @@ const InfoDashboard = () => {
             </div>
             <div className='text-gray-300 text-justify mx-8'>
                 <p>
-                    <h2>Dashboard</h2>
+                    <h2>Customer Table</h2>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     In aliquam sem fringilla ut. Diam donec adipiscing tristique risus. Aliquam sem et tortor consequat. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
                     Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Leo integer malesuada nunc vel risus.
@@ -24,11 +24,11 @@ const InfoDashboard = () => {
                     Et tortor consequat id porta nibh venenatis cras sed felis.
                     Nisl pretium fusce id velit ut tortor pretium. Venenatis cras sed felis eget.
 
-                    Dashboard
+                    Customer Table
                 </p>
             </div>
         </div>
     )
 }
 
-export default InfoDashboard
+export default InfoCustomerTable

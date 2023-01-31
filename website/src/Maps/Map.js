@@ -18,11 +18,8 @@ export default function Map() {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 />
-
                 <MarkersFromRedux />
-
                 <Circle center={startposition} radius={20} />
-
             </MapContainer>
         </div>
     )

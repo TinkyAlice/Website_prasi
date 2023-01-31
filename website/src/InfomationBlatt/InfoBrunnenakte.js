@@ -12,6 +12,7 @@ const InfoBrunnenakte = () => {
                 </div>
                 <div className='text-gray-300 text-justify mx-8'>
                     <p>
+                        <h2>Brunnenakte</h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         In aliquam sem fringilla ut. Diam donec adipiscing tristique risus. Aliquam sem et tortor consequat. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
                         Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Leo integer malesuada nunc vel risus.
