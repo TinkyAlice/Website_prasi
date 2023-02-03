@@ -12,6 +12,7 @@ import NewProjectWizard from './Wizards/NewProjectWizard'
 import NewUserWizard from './Wizards/NewCustomerWizard';
 import ProjectDetails from './Project/ProjectDetails';
 import Projects from './neueproject/projects';
+import Tabelle from './Tabelle/Tabelle';
 
 const Rout = () => {
   return (
@@ -33,6 +34,7 @@ const Rout = () => {
         <Route path="project" element={<ProjectDetails />} />
 
         <Route path="projects" element={<Projects />}/>
+        <Route path='tabelle' element={<Tabelle/>}/>
         {/**
           <Route path="new-customer" element={<NewCustomerWizard />} />
           <Route path="new-project" element={<NewProjectWizard />} />

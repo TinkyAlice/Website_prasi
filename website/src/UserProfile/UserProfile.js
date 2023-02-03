@@ -9,7 +9,7 @@ export default function UserProfile() {
         <div>
         
         <div className="h-full w-full bg-gray-100">
-            <p className="text-4xl text-left text-gray-500 pl-8 pt-8">User Profile</p>
+            <p className="text-4xl text-left text-gray-500 pl-8 pt-8">Profile</p>
 
             
             <div className="flex gap-8 pl-8 pr-8 pt-8">

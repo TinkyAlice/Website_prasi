@@ -24,7 +24,7 @@ export default function UserProfileFormular() {
                         </div>
                     </div>
                     <div className="w-full flex-1 mx-4 svelte-1l8159u">
-                        <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Phone</div>
+                        <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Telefonnummer</div>
                         <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
                             <input 
                                 type="tel"
@@ -53,7 +53,7 @@ export default function UserProfileFormular() {
 
                 <div className="flex flex-col md:flex-row">
                     <div className="w-full flex-1 mx-4 svelte-1l8159u">
-                        <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Firstname</div>
+                        <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Vorname</div>
                         <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
                             <input 
                                 type="text"
@@ -66,7 +66,7 @@ export default function UserProfileFormular() {
                         </div>
                     </div>
                     <div className="w-full flex-1 mx-4 svelte-1l8159u">
-                        <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Lastname</div>
+                        <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Nachname</div>
                         <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
                             <input 
                                 type="text"
@@ -82,7 +82,7 @@ export default function UserProfileFormular() {
 
                 <div className="flex flex-col md:flex-row">
                     <div className="w-full flex-1 mx-4 svelte-1l8159u">
-                        <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Adress</div>
+                        <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Adresse</div>
                         <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
                             <input 
                                 type="text"
@@ -100,7 +100,7 @@ export default function UserProfileFormular() {
 
             <div className="flex flex-col md:flex-row">
                 <div className="w-full flex-1 mx-4 svelte-1l8159u">
-                    <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Postal Code</div>
+                    <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Post-Leitzahl</div>
                     <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
                         <input 
                             type="text"
@@ -113,7 +113,7 @@ export default function UserProfileFormular() {
                     </div>
                 </div>
                 <div className="w-full flex-1 mx-4 svelte-1l8159u">
-                    <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">City</div>
+                    <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Stadt</div>
                     <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
                         <input 
                             type="text"
@@ -126,7 +126,7 @@ export default function UserProfileFormular() {
                     </div>
                 </div>
                 <div className="w-full flex-1 mx-4 svelte-1l8159u">
-                    <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Country</div>
+                    <div className="font-bold text-gray-600 text-xs text-left leading-8 uppercase h-6 mx-2 mt-3">Land</div>
                     <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
                         <input 
                             type="text"
@@ -142,7 +142,7 @@ export default function UserProfileFormular() {
 
             <div className="flex items-start mx-4 pt-8">
                 <button className="button-type-2">
-                Save Changes
+                Änderung Speichern
                 </button>
             </div>
 

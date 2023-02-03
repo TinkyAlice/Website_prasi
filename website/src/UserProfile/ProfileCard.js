@@ -17,7 +17,7 @@ export default function ProfileCard() {
                     </div>
                 </div>
 
-                <p>Username</p>
+                <p>Benutzername</p>
             </div>
         </div> 
     )
