@@ -1,8 +1,12 @@
 import React, {useEffect, useState} from 'react'
 import { Marker, Popup } from 'react-leaflet'
 import { Link } from 'react-router-dom'
+import "leaflet/dist/leaflet.css";
+
+import L from 'leaflet';
 
 
+var size = 0;
 
 export default function MarkersFromRedux() {
 
@@ -87,6 +91,12 @@ export default function MarkersFromRedux() {
                         parseFloat(project.project_location_lat),
                         parseFloat(project.project_location_long)
                     ]}
+                    icon={L.divIcon({
+                        iconSize: [size, size],
+                        iconAnchor: [size / 2, size + 9],
+                        className: "mymarker",
+                        html: "📍",
+                      })}
                     eventHandlers={{
                         click: () => {
                             setActiveProject(project);

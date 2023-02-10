@@ -32,7 +32,7 @@ export default function SideBarList() {
 
     return (
 
-        <div class="flex flex-col items-stretch w-40 h-full overflow-hidden text-gray-400 bg-gray-900 rounded">
+        <div class="flex flex-col items-stretch w-40 h-full overflow-hidden text-gray-400 bg-slate-800 rounded">
             <div class='items-stretch' >
                 <Link to="/dashboard">
                     <a class="flex items-center w-full px-3 mt-3" href="#">
@@ -64,66 +64,12 @@ export default function SideBarList() {
                                 <span class="ml-2 text-sm font-medium">Profile</span>
                             </a>
                         </Link>
-                        <Link to='Datenbank'>
-                            <details className="group">
-                                <summary className="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-300" href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-                                        <path fill-rule="evenodd" d="M10 1c3.866 0 7 1.79 7 4s-3.134 4-7 4-7-1.79-7-4 3.134-4 7-4zm5.694 8.13c.464-.264.91-.583 1.306-.952V10c0 2.21-3.134 4-7 4s-7-1.79-7-4V8.178c.396.37.842.688 1.306.953C5.838 10.006 7.854 10.5 10 10.5s4.162-.494 5.694-1.37zM3 13.179V15c0 2.21 3.134 4 7 4s7-1.79 7-4v-1.822c-.396.37-.842.688-1.306.953-1.532.875-3.548 1.369-5.694 1.369s-4.162-.494-5.694-1.37A7.009 7.009 0 013 13.179z" clip-rule="evenodd" />
-                                    </svg>
-                                    <span className="ml-2 text-sm font-medium"> Datenbank </span>
-                                    {/**
-                                <span className="ml-auto transition duration-300 shrink-0 group-open:-rotate-180">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 stroke-current"
-                                        viewBox="0 0 20 20"
-                                        fill="currentColor"
-                                    >
-                                        <path
-                                            fillRule="evenodd"
-                                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                            clipRule="evenodd"
-                                        />
-                                    </svg>
-                                </span>
-                                 */}
-                                </summary>
-
-                                {/**
-                            <nav className="flex flex-col ml-12 justify-between text-gray-300 hover:text-gray-500 cursor-pointer">
-                                <ul>
-                                    <li>
-                                        <Link to="/new-user">
-                                            <div className="flex items-center ">
-                                                <span className="text-lg text-gray-300 hover:text-gray-500">Neuer Benutzer</span>
-                                            </div>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/new-customer">
-                                            <div className="flex items-center ">
-                                                <span className="text-lg text-gray-300 hover:text-gray-500">Neuer Kunde</span>
-                                            </div>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/new-project">
-                                            <div className="flex items-center">
-                                                <span className="text-lg text-gray-300 hover:text-gray-500">Neue Projekte</span>
-                                            </div>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </nav>
-                             */}
-                            </details>
-                        </Link>
                         <Link to='tabelle'>                        
                         <details className="group">
                             <summary className="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-                                    <path fill-rule="evenodd" d="M.99 5.24A2.25 2.25 0 013.25 3h13.5A2.25 2.25 0 0119 5.25l.01 9.5A2.25 2.25 0 0116.76 17H3.26A2.267 2.267 0 011 14.74l-.01-9.5zm8.26 9.52v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75v.615c0 .414.336.75.75.75h5.373a.75.75 0 00.627-.74zm1.5 0a.75.75 0 00.627.74h5.373a.75.75 0 00.75-.75v-.615a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75v.625zm6.75-3.63v-.625a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75v.625c0 .414.336.75.75.75h5.25a.75.75 0 00.75-.75zm-8.25 0v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75v.625c0 .414.336.75.75.75H8.5a.75.75 0 00.75-.75zM17.5 7.5v-.625a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75V7.5c0 .414.336.75.75.75h5.25a.75.75 0 00.75-.75zm-8.25 0v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75V7.5c0 .414.336.75.75.75H8.5a.75.75 0 00.75-.75z" clip-rule="evenodd" />
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                                        <path fill-rule="evenodd" d="M10 1c3.866 0 7 1.79 7 4s-3.134 4-7 4-7-1.79-7-4 3.134-4 7-4zm5.694 8.13c.464-.264.91-.583 1.306-.952V10c0 2.21-3.134 4-7 4s-7-1.79-7-4V8.178c.396.37.842.688 1.306.953C5.838 10.006 7.854 10.5 10 10.5s4.162-.494 5.694-1.37zM3 13.179V15c0 2.21 3.134 4 7 4s7-1.79 7-4v-1.822c-.396.37-.842.688-1.306.953-1.532.875-3.548 1.369-5.694 1.369s-4.162-.494-5.694-1.37A7.009 7.009 0 013 13.179z" clip-rule="evenodd" />
+                                    </svg>
 
                                 <span className="ml-2 text-sm font-medium"> Tabellen </span>
                                 {/**
@@ -175,15 +121,6 @@ export default function SideBarList() {
                              */}
                         </details>
                         </Link>
-                        <Link to="/projects/">
-                            <a class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-300" href="#">
-                                <svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
-                                </svg>
-                                <span class="ml-2 text-sm font-medium">Projekts</span>
-                            </a>
-                        </Link>
-
                         <Link to="/brunnenakte/">
                             <a class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-300" href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">

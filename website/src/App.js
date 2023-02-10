@@ -12,7 +12,7 @@ function App() {
       <div className=' overflow-auto col-span-2 flex flex-row '>
         <div class="relative h-full w-full ml-14">
           <Rout/>
-          <footer className='center'>
+          <footer className='text-center'>
             copy Right Sourcetronic
           </footer>
         </div>

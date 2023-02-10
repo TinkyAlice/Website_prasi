@@ -7,6 +7,9 @@ import InfoProjektTable from './InfoProjektTable';
 import InfoUserTable from './InfoUserTable';
 import InfoCustomerTable from './InfoCustomerTable';
 import InfoUserProfile from './InfoUserProfile';
+import InfoTabelle from './InfoTabelle';
+import InfoPdf from './InfoPdf';
+import InfoXmsl from './InfoXmsl';
 
 
 
@@ -22,6 +25,9 @@ const InfoRout = () => {
             <Route path="user-table" element={<InfoUserTable />} />
             <Route path="customer-table" element={<InfoCustomerTable />} />
             <Route path="user-profile" element={<InfoUserProfile/>} />
+            <Route path="tabelle" element={<InfoTabelle/>} />
+            <Route path='pdf' element={<InfoPdf/>}/>
+            <Route path='xlsx' element={<InfoXmsl/>}/>
         </Routes>
     </div>
   )

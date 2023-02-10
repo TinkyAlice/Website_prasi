@@ -1,57 +1,59 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import { useParams } from "react-router-dom";
+import { useSelector } from 'react-redux'
 
+export default function FountaineCustomer(props) {
 
-export default function FountaineCustomer() {
 
 
     return (
-        <div>
-            <p className="text-2xl text-gray-500 mt-4">Auftraggeber:</p>
-            <table className="bg-white mt-2">
+        <div className='border-8 border-slate-800 rounded bg-slate-800 '>
+            <p className="text-2xl text-gray-300 mt-4 flex left bg-slate-800">Auftraggeber:</p>
+            <table className="bg-slate-800 mt-2">
                 <tbody>
                     <tr>
-                        <td className="text-gray-500 text-right">Name:</td>
-                        <td className="text-gray-500">  
-                            <div>Jonas Müller</div>
+                        <td className="text-gray-300 text-left">Name:</td>
+                        <td className="text-gray-300 text-left">  
+                            <div>Armin Großmann</div>
                         </td>
                     </tr>
                     <tr>
-                        <td className="text-gray-500 text-right">Straße:</td>
-                        <td className="text-gray-500">  
-                           <div>Fahrenheitsstraße 1</div>
+                        <td className="text-gray-300 text-left">Straße:</td>
+                        <td className="text-gray-300">  
+                            <div>Vegesacker Straße 87</div>
                         </td>
                     </tr>
                     <tr>
-                        <td className="text-gray-500 text-right">Ort:</td>
-                        <td className="text-gray-500"> 
-                            <div>28217 Bremen</div>
+                        <td className="text-gray-300 text-left">Ort:</td>
+                        <td className="text-gray-300"> 
+                            <div>28259 Bremen</div>
                         </td>
                     </tr>
                     <tr>
-                        <td colSpan={2}> <p className="text-gray-500">Ansprechpartner:</p> </td>
+                        <td colSpan={2}> <p className="text-gray-300 text-left">Ansprechpartner:</p> </td>
                     </tr>
                     <tr>
-                        <td className="text-gray-500 text-right">Name:</td>
-                        <td className="text-gray-500">
-                            <div>Tabita Oberste-Berghaus</div>
+                        <td className="text-gray-300 text-left">Name:</td>
+                        <td className="text-gray-300">
+                            <div>Projekt Ehre</div>
                         </td>
                     </tr>
                     <tr>
-                        <td className="text-gray-500 text-right">Telefon:</td>
-                        <td className="text-gray-500">
-                            <div>0123456</div>
+                        <td className="text-gray-300 text-left">Telefon:</td>
+                        <td className="text-gray-300">
+                            <div>0648548406</div>
                         </td>
                     </tr>
                     <tr>
-                        <td className="text-gray-500 text-right">Mobil:</td>
-                        <td className="text-gray-500"> 
-                            <div>987654</div>
+                        <td className="text-gray-300 text-left">Mobil:</td>
+                        <td className="text-gray-300"> 
+                            <div>640646440</div>
                         </td>
                     </tr>
                     <tr>
-                        <td className="text-gray-500 text-right">E-Mail:</td>
-                        <td className="text-gray-500">  
-                            <div>email@mail</div>
+                        <td className="text-gray-300 text-left">E-Mail:</td>
+                        <td className="text-gray-300">  
+                            <div>Armin@mail.com</div>
                         </td>
                     </tr>
                 </tbody>

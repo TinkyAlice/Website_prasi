@@ -18,8 +18,8 @@ export default function UserProfile() {
                         <UserProfileFormular />
                     </div>
                 </div>
-                <div className="w-1/3 h-screen">
-                    <div className="h-1/2 rounded border border-gray-300 bg-white">
+                <div className="flex gap-8 pl-8 pr-8 pt-8">
+                    <div className="h-1/2 ">
                         <ProfileCard />
                     </div>
                 </div>

@@ -1,7 +1,5 @@
 import React from "react";
-import { Doughnut  } from "react-chartjs-2";
 import dynamic from 'next/dynamic';
-import { deMill } from "@react-jvectormap/germany";
 
 
 import Flag_DE_NI from "../..//Bilder/05-Niedersachsen.png"
@@ -17,22 +15,6 @@ const VectorMap = dynamic(
     { ssr: false, }
   );
 
-
-/**
-var mapData = {
-    AU: 760,
-    BR: 550,
-    CA: 120,
-    DE: 1300,
-    FR: 540,
-    GB: 690,
-    GE: 200,
-    IN: 200,
-    RO: 600,
-    RU: 300,
-    US: 2920,
-  };
-*/
 
 var mapData = {
   "DE-BE": 0, // Berlin
@@ -139,15 +121,6 @@ export const VerctormapDE = ({ series }) =>  {
                         </tbody>
                     </table>
                 </div>
-
-                
-
-  <VectorMap                       
-                    map={deMill}
-                    series={series}
-                    />
-                    
-                
             </div>
         </div>  
 

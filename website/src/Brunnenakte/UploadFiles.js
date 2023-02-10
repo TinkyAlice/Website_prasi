@@ -1,36 +1,36 @@
 import React, { Component } from "react";
 
+/**
+ * Tutorial für Dateiupload: https://www.bezkoder.com/react-hooks-file-upload/
+ */
 
-export default function UploadFiles()  {
+export default class UploadFiles extends Component {
+
+    render() {
 
         return (
-            <div>
+            <div className="border-8 border-slate-800 rounded bg-slate-800">
                 <div>
-
                     <div className="mt-5 flex justify-center">
                         <label>
-                            <input type="file"  />
+                            <input type="file" />
                         </label>
-                
-                        <button className="button-type-2"
 
+                        <button className="button-type-2 text-gray-300"
                         >
-                            Upload
+                            Hochladen
                         </button>
                     </div>
-        
-                    <div className="alert alert-light" role="alert">
-                    </div>
                 </div>
+                <br/>
 
                 <div>
-                    <p className="text-2xl text-gray-500">Enthaltene Dokumente:</p>                
+                    <p className="text-2xl text-gray-300">Enthaltene Dokumente:</p>
                     <div className="flex justify-center overflow-auto">
-                        <ul className="bg-white rounded-lg border border-gray-200 w-96 text-gray-900">
-
-                        </ul>
                     </div>
                 </div>
-            </div>            
+                <br/>
+            </div>
         );
     }
+}
