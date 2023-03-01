@@ -7,36 +7,37 @@ export default function FountaineLaws(props) {
         <div className="rounded border-8 border-slate-800  bg-slate-800"> 
             <p className="text-2xl text-gray-300 text-left mt-4">Ergänzende Angaben zum Wasserrecht:</p>
             <table className="bg-slate-800 mt-2">
-                <tbody>
+                <tbody className='grid grid-cols-2'>
                     <tr>
-                        <td className="text-gray-300 w-1/3 text-left">Aktenzeichen:</td>
-                        <td className="text-gray-300">
-                            <div>123</div>
-                        </td>
+                        <td className="text-gray-300 text-left">Aktenzeichen:</td>
                     </tr>
                     <tr>
-                        <td className="text-gray-300 w-1/3 text-left">Erlaubte Fördermenge:</td>
-                        <td className="text-gray-300">
-                            <div>1Liter</div>
-                        </td>
+                        <td className="text-gray-300 text-left">123</td>
+
                     </tr>
                     <tr>
-                        <td className="text-gray-300 w-1/3 text-left">Erlaubtes Delta-T:</td>
-                        <td className="text-gray-300">
-                            <div>75</div>
-                        </td>
+                        <td className="text-gray-300 text-left">Erlaubte Fördermenge:</td>
                     </tr>
                     <tr>
-                        <td className="text-gray-300 w-1/3 text-left">Erlaubte min. Temp:</td>
-                        <td className="text-gray-300">
-                            <div>-200</div>
-                        </td>
+                        <td className="text-gray-300 text-left">1 Liter</td>
                     </tr>
                     <tr>
-                        <td className="text-gray-300 w-1/3 text-left">Erlaubte max. Temp:</td>
-                        <td className="text-gray-300">
-                            <div>-220</div>
-                        </td>
+                        <td className="text-gray-300 text-left">Erlaubtes Delta-T:</td>
+                    </tr>
+                    <tr>
+                      <td className='text-gray-300 text-left'>75</td>
+                    </tr>
+                    <tr>
+                      <td className='text-gray-300 text-left'>Erlaubte min. Temp</td>
+                    </tr>
+                    <tr>
+                      <td className='text-gray-300 text-left'>-200</td>
+                    </tr>
+                    <tr>
+                      <td className='text-gray-300 text-left'>Erlaubte max. Temp</td>
+                    </tr>
+                    <tr>
+                      <td className='text-gray-300 text-left'>-220</td>
                     </tr>
                 </tbody>
             </table>

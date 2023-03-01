@@ -10,8 +10,8 @@ export default function FountaineProject(props) {
     return (
         <div className='border-8 border-slate-800 rounded bg-slate-800 '>
             <p className="text-2xl text-gray-300 mt-4  ">Projekt:</p>       
-            <table className=" mt-2">
-                <tbody>
+            <table className=" mt-2 ">
+                <tbody className='grid grid-cols-2 gap-3'>
                     <tr>
                         <td className="text-gray-300 text-left w-10">Nummer:</td>
                         <td className="text-gray-300">
