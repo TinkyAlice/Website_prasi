@@ -18,7 +18,7 @@ export default function UserProfile() {
                         <UserProfileFormular />
                     </div>
                 </div>
-                <div className="flex gap-8 pl-8 pr-8 pt-8">
+                <div className="flex gap-8 pl-8 ">
                     <div className="h-1/2 ">
                         <ProfileCard />
                     </div>

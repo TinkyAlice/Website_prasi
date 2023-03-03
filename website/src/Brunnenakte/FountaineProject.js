@@ -1,88 +1,39 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { useSelector } from 'react-redux'
-
+import { useSelector } from "react-redux";
 
 export default function FountaineProject(props) {
+  return (
+    <div className="border-8 border-slate-800 rounded bg-slate-800 w-full m-6">
+      <p className="text-2xl text-gray-300  ">Projekt:</p>
+      <div class="grid grid-cols-2 text-gray-300 mt-4">
+        <div className="col-span-1">Nummer:</div>
+        <div class="col-span-1 ">6336</div>
+        <div className="col-span-1">Name:</div>
+        <div class="col-span-1 ">Armin Großmann</div>
 
+        <div className="col-span-1">Straße:</div>
+        <div class="col-span-1 ">Vegesacker Straße 87</div>
 
-
-    return (
-        <div className='border-8 border-slate-800 rounded bg-slate-800 '>
-            <p className="text-2xl text-gray-300 mt-4  ">Projekt:</p>       
-            <table className=" mt-2 ">
-                <tbody className='grid grid-cols-2 gap-3'>
-                    <tr>
-                        <td className="text-gray-300 text-left w-10">Nummer:</td>
-                        <td className="text-gray-300">
-                            <div>6363</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">Name:</td>
-                        <td className="text-gray-300">
-                            <div>Armin</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">Straße:</td>
-                        <td className="text-gray-300">
-                            <div>Baumstraße</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">Ort:</td>
-                        <td className="text-gray-300"> 
-                            <div>Bremne</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">Gemarkung:</td>
-                        <td className="text-gray-300">  
-                            <div>Kein Plan</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">Flur:</td>
-                        <td className="text-gray-300">
-                            <div>-3</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">Flurstück:</td>
-                        <td className="text-gray-300">
-                            <div>-2</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colSpan={2}> <center> <p className="text-gray-300 text-left">Ansprechpartner:</p> </center> </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">Name:</td>
-                        <td className="text-gray-300">
-                            <div>Du selber</div>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">Telefon:</td>
-                        <td className="text-gray-300">
-                            <div>Weiß nicht darin war aber eine 5</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">Mobil:</td>
-                        <td className="text-gray-300">  
-                            <div>ist das mit dem @</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-300 text-left">E-Mail:</td>
-                        <td className="text-gray-300">
-                            <div>Brieftaube ist auf dem Dach</div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    )
+        <div className="col-span-1">Ort:</div>
+        <div class="col-span-1 ">Bremen</div>
+        <div className="col-span-1">Gemarkung:</div>
+        <div class="col-span-1 ">Kein Plan</div>
+        <div className="col-span-1">Flur:</div>
+        <div class="col-span-1 ">-3</div>
+        <div className="col-span-1">Flurstück:</div>
+        <div class="col-span-1 ">-2</div>
+        <div className="col-span-1">Ansprechungspartner:</div>
+        <div class="col-span-1 ">Ich selber</div>
+        <div className="col-span-1">Name:</div>
+        <div class="col-span-1 ">Johannes</div>
+        <div className="col-span-1">Telefon:</div>
+        <div class="col-span-1 ">Irgendwas mit einer 5</div>
+        <div className="col-span-1">Mobil:</div>
+        <div class="col-span-1 ">ist das mit dem @</div>
+        <div className="col-span-1">E-mail:</div>
+        <div class="col-span-1 ">Brieftaube ist auf dem Dach</div>
+      </div>
+    </div>
+  );
 }

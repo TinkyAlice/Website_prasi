@@ -17,7 +17,7 @@ export default function Brunnenakte() {
 
 
     return (
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 h-full ">
       <div className="flex">
         <p className="text-4xl text-left text-gray-500 pl-8 pt-8">
           {" "}
